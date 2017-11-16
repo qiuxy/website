@@ -15,7 +15,6 @@ import java.util.UUID;
  * @author qiuxy on 2017/11/16
  */
 @RestController
-@RequestMapping(value = "/user")
 public class UserController {
     @Autowired
     private UserRepository userRepository;
