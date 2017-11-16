@@ -20,7 +20,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @PostMapping(value = "register")
+    @PostMapping(value = "user")
     public User register(User user) {
         return userRepository.save(user);
     }
